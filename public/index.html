@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fleet management - Dashboard</title>
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" type="text/css" href="css/bulma.min.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 </head>
@@ -50,7 +51,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script>
         if('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
+            navigator.serviceWorker.register('src/sw.js')
             .then(function() {
                     console.log('Service Worker Registered');
             });
