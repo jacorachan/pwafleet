@@ -7,20 +7,6 @@
     <title>Fleet management - Dashboard</title>
     <link rel="stylesheet" type="text/css" href="css/bulma.min.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyA8d5LLqU78O4JCA_9PDDNQhPjudTTxG_Q",
-            authDomain: "pwafleet.firebaseapp.com",
-            databaseURL: "https://pwafleet.firebaseio.com",
-            projectId: "pwafleet",
-            storageBucket: "",
-            messagingSenderId: "608299607553"
-        };
-        firebase.initializeApp(config);
-    </script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 
 <body>
@@ -48,7 +34,28 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyA8d5LLqU78O4JCA_9PDDNQhPjudTTxG_Q",
+            authDomain: "pwafleet.firebaseapp.com",
+            databaseURL: "https://pwafleet.firebaseio.com",
+            projectId: "pwafleet",
+            storageBucket: "",
+            messagingSenderId: "608299607553"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script>
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+            .then(function() {
+                    console.log('Service Worker Registered');
+            });
+        }
+    </script>
 </body>
 
 </html>
