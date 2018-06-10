@@ -1,11 +1,5 @@
 Commands used to build the app
 
-*********************************
-//Install Bulma
-npm install bulma
-
-//Manually copy css and css.map to css
-
 //https://firebase.google.com/docs/web/setup
 
 //Open Firebase console

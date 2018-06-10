@@ -1,4 +1,4 @@
-# pwaflow
+# pwafleet
 Basic progressive web app project.
 
 Project is hosted in firebase under https://pwafleet.firebaseapp.com
