@@ -2,8 +2,7 @@ var cacheName = 'pwafleet';
 var filesToCache = [
   '/',
   '/index.html',
-  '/css/styles.css',
-  '/css/bulma.min.css'
+  '/css/styles.css'
 ];
 
 self.addEventListener('install', function(e) {
