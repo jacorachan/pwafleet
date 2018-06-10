@@ -19,9 +19,8 @@ html {
   }
 
 
-  /* Custom page CSS
+  /* Page CSS
   -------------------------------------------------- */
-  /* Not required for template or sticky footer method. */
 
   body > .container {
     padding: 15px;
@@ -36,3 +35,7 @@ html {
     font-size: 80%;
   }
 
+  .copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+  }
