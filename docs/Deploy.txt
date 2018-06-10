@@ -24,3 +24,6 @@ firebase deploy
 git add .
 git remote add origin https://github.com/jacorachan/pwafleet.git
 git push -u origin master
+
+//Clone
+git clone https://github.com/jacorachan/pwafleet.git pwafleet
